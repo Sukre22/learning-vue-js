@@ -1,10 +1,26 @@
 <template>
   <div class="container">
     <div class="form">
+      
+<div class="form-header">
+  
+<p class="form-header__title">
+  to do list
+</p>
+</div>
+<div class="form-tasks">
+  
+    <div class="form-tasks__item">Task 1</div>
+    <div class="form-tasks__item">Task 2</div>
+    <div class="form-tasks__item">Task 3</div>
+     
+</div>
+<div class="form-footer">
 
+</div>
     </div>
    
-    <div class="img">
+   <div class="img">
       <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M416 32H335.999C335.992 32 335.986 32.001 335.979 32.001C328.674 22.292 317.059 16 304 16H283.61C277.966 6.242 267.481 0 256 0C244.519 0 234.034 6.242 228.39 16H208C194.941 16 183.326 22.292 176.021 32.001C176.014 32.001 176.007 32 176 32H96C73.944 32 56 49.944 56 72V472C56 494.056 73.944 512 96 512H416C438.056 512 456 494.056 456 472V72C456 49.944 438.056 32 416 32ZM184 56C184 42.767 194.767 32 208 32H233.47C236.855 32 239.874 29.869 241.008 26.68C243.278 20.292 249.303 16 256 16C262.697 16 268.722 20.292 270.992 26.68C272.126 29.869 275.145 32 278.53 32H304C317.233 32 328 42.767 328 56V80H184V56ZM440 472C440 485.233 429.233 496 416 496H96C82.767 496 72 485.233 72 472V72C72 58.767 82.767 48 96 48H168.805C168.278 50.586 168 53.261 168 56V88C168 92.418 171.582 96 176 96H336C340.418 96 344 92.418 344 88V56C344 53.261 343.722 50.586 343.195 48H416C429.233 48 440 58.767 440 72V472Z" fill="#FFDFBE" fill-opacity="0.23"/>
         <path d="M416 64H368C363.582 64 360 67.582 360 72C360 76.418 363.582 80 368 80H408V464H104V80H144C148.418 80 152 76.418 152 72C152 67.582 148.418 64 144 64H96C91.582 64 88 67.582 88 72V472C88 476.418 91.582 480 96 480H416C420.418 480 424 476.418 424 472V72C424 67.582 420.418 64 416 64Z" fill="#FFDFBE" fill-opacity="0.23"/>
@@ -16,7 +32,7 @@
         <path d="M240 288H376C380.418 288 384 284.418 384 280C384 275.582 380.418 272 376 272H240C235.582 272 232 275.582 232 280C232 284.418 235.582 288 240 288Z" fill="#FFDFBE" fill-opacity="0.23"/>
         <path d="M240 376H376C380.418 376 384 372.418 384 368C384 363.582 380.418 360 376 360H240C235.582 360 232 363.582 232 368C232 372.418 235.582 376 240 376Z" fill="#FFDFBE" fill-opacity="0.23"/>
         </svg>
-    </div>
+    </div> 
    
       
   </div>
@@ -28,27 +44,78 @@ export default {};
 
 <style lang="scss">
 body {
-  background: linear-gradient(104.11deg, #ff7e5f 14.52%, #feb567 87.26%);
+  background: linear-gradient(104.11deg, #ff7e5f 14.52%, #feb567 87.26%); 
 }
 
 .container {
-  color: blue;
+  margin: auto;
+  color: red;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
 }
 
 .form {
-  width: 540px;
-  background-color: blue;
+  
+  position: relative;
+  //margin-left: 200px;
+  max-width: 540px;
+  background-color: #FFF4E9;
   height: 437px;
   z-index: 1;
+  left: 258px;
+  bottom: 3px;
+  box-shadow: 0px 8px 35px 5px #FE9262;
+
+ 
 }
 
 .img {
-  position: relative;
-  right: 255px;
-  z-index: 0;
+  
+  right: 425px;
+  
+}
+
+.form-header { 
+  max-width: 540px;
+  height: 50px;
+  background-color: #FFCA93;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+  z-index: 1;
+}
+.form-header__title {
+  color: #7F4B13;
+  font-size: 20px;
+  font-weight: 600;
+} 
+
+.form-tasks {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.form-tasks__item {
+  display: block;
+  max-width: 480px;
+  height: 50px;
+  background-color: #FFDFBE;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 30px; 
+  
+}
+
+.form-footer {
+  
+ width: 540px;
+  height: 50px;
+  background-color: #FFCA93;
 }
 </style>
