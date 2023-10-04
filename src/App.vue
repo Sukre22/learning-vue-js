@@ -10,9 +10,9 @@
 </div>
 <div class="form-tasks">
   
-    <div class="form-tasks__item">Task 1</div>
-    <div class="form-tasks__item">Task 2</div>
-    <div class="form-tasks__item">Task 3</div>
+    <div class="form-tasks__item"><p class="form-tasks__item--text">Task 1</p></div>
+    <div class="form-tasks__item"><p class="form-tasks__item--text">Task 2</p></div>
+    <div class="form-tasks__item"><p class="form-tasks__item--text">Task 3</p></div>
      
 </div>
 <div class="form-footer">
@@ -109,7 +109,16 @@ body {
   border-radius: 10px;
   margin-left: 30px;
   margin-top: 30px; 
-  
+ 
+}
+
+.form-tasks__item--text {
+  color: #7F4B13;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 23px;
+  margin-top: 11px;
+  margin-bottom: 11px; 
 }
 
 .form-footer {
