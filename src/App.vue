@@ -15,6 +15,9 @@
     <div class="form-tasks__item"><p class="form-tasks__item--text">Task 3</p></div>
      
 </div>
+<div class="form-add">
+  <p class="form-add__text">Add a new task</p>
+</div>
 <div class="form-footer">
 
 </div>
@@ -72,10 +75,8 @@ body {
  
 }
 
-.img {
-  
-  right: 425px;
-  
+.img {  
+  right: 425px;  
 }
 
 .form-header { 
@@ -124,7 +125,33 @@ body {
 .form-footer {
   
  width: 540px;
-  height: 50px;
-  background-color: #FFCA93;
+ height: 50px;
+ background-color: #FFCA93;
+ bottom: 50px;
 }
+
+.form-add {
+  display: flex;
+  border: 1.5px dashed #FFCA93;
+  border-spacing: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: #FFECD8;
+  
+  
+}
+
+.form-add__text {  
+  color: #FFCA93;
+  font-size: 20px;
+  font-weight: 400;  
+}
+
 </style>
