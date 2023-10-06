@@ -13,6 +13,9 @@
     <div class="form-tasks__item"><p class="form-tasks__item--text">Task 1</p></div>
     <div class="form-tasks__item"><p class="form-tasks__item--text">Task 2</p></div>
     <div class="form-tasks__item"><p class="form-tasks__item--text">Task 3</p></div>
+    
+    
+    
      
 </div>
 <div class="form-add">
@@ -66,7 +69,7 @@ body {
   //margin-left: 200px;
   max-width: 540px;
   background-color: #FFF4E9;
-  height: 437px;
+  //height: 437px;
   z-index: 1;
   left: 258px;
   bottom: 3px;
@@ -144,8 +147,6 @@ body {
   margin-right: 30px;
   margin-left: 30px;
   background-color: #FFECD8;
-  
-  
 }
 
 .form-add__text {  
