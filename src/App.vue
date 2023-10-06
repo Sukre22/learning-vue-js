@@ -10,11 +10,12 @@
 </div>
 <div class="form-tasks">
   
-    <div class="form-tasks__item"><p class="form-tasks__item--text">Task 1</p></div>
+    <div class="form-tasks__item">
+      <input type="checkbox">
+      <p class="form-tasks__item--text">Task 1</p>
+    </div>
     <div class="form-tasks__item"><p class="form-tasks__item--text">Task 2</p></div>
-    <div class="form-tasks__item"><p class="form-tasks__item--text">Task 3</p></div>
-    
-    
+    <div class="form-tasks__item"><p class="form-tasks__item--text">Task 3</p></div>        
     
      
 </div>
@@ -22,7 +23,14 @@
   <p class="form-add__text">Add a new task</p>
 </div>
 <div class="form-footer">
-
+<div class="form-footer__left">
+  <p class="form-footer__text">1/3 left</p>
+</div>
+<div class="form-footer__right">
+  <p class="form-footer__content border">All</p>
+  <p class="form-footer__content">Active</p>
+  <p class="form-footer__content">Completed</p>
+</div>
 </div>
     </div>
    
@@ -50,32 +58,26 @@ export default {};
 
 <style lang="scss">
 body {
-  background: linear-gradient(104.11deg, #ff7e5f 14.52%, #feb567 87.26%); 
+  background: linear-gradient(104.11deg, #ff7e5f 14.52%, #feb567 87.26%);  
 }
 
 .container {
   margin: auto;
-  color: red;
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  
+  height: 100vh;  
 }
 
-.form {
-  
-  position: relative;
-  //margin-left: 200px;
+.form {  
+  position: relative;  
   max-width: 540px;
-  background-color: #FFF4E9;
-  //height: 437px;
+  background-color: #FFF4E9;  
   z-index: 1;
   left: 258px;
   bottom: 3px;
-  box-shadow: 0px 8px 35px 5px #FE9262;
-
- 
+  box-shadow: 0px 8px 35px 5px #FE9262; 
 }
 
 .img {  
@@ -101,8 +103,6 @@ body {
 .form-tasks {
   display: flex;
   flex-direction: column;
-  
-
 }
 
 .form-tasks__item {
@@ -126,11 +126,16 @@ body {
 }
 
 .form-footer {
-  
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
  width: 540px;
  height: 50px;
  background-color: #FFCA93;
  bottom: 50px;
+ font-weight: 600;
+ font-size: 20px;
 }
 
 .form-add {
@@ -152,7 +157,41 @@ body {
 .form-add__text {  
   color: #FFCA93;
   font-size: 20px;
-  font-weight: 400;  
+  font-weight: 400; 
+   
 }
+
+.form-footer__text {
+  color: #7F4B136B;
+  margin-left: 30px;
+  margin-top: 11px;
+  margin-bottom: 11px;  
+}
+
+.form-footer__right {
+ display: flex;
+ flex-direction: row;
+ 
+ align-items: center;
+ margin-right: 30px;
+}
+
+.form-footer__content {
+  color: #7F4B136B;
+  margin-left: 25px;
+}
+
+
+
+.border {
+  border: 1px solid #C9955D;
+  border-radius: 10px; 
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+
 
 </style>
