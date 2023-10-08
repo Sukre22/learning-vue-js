@@ -51,9 +51,9 @@
 </div>
     </div>
    
-   <div class="img">
-    <img src="./img/1.svg" />
-    </div> 
+      <div class="img">
+    <img class="img__back" src="./img/1.svg" />
+      </div> 
    
       
   </div>
@@ -69,7 +69,7 @@ body {
 }
 
 .container {
-  margin: auto;  
+  margin: 0 auto;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,13 @@ body {
 }
 
 .img {  
-  right: 425px;  
+ right: 425px;
+ 
+}
+
+.img__back {
+ width: 100%;
+ height: 512px
 }
 
 .form-header { 
@@ -233,6 +239,13 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+
+@media (max-width: 414px) {
+  .form-footer {
+    flex-direction: column;
+  }
+}
+  
 
 
 
