@@ -13,7 +13,7 @@
     <div class="form-tasks__item">
       <div class="form-tasks__container">
        <img class="form-tasks__img3" src="./img/3.svg" />
-      <p class="form-tasks__item--text">Task 1</p>
+      <p class="form-tasks__item--text">Task 1 dssdd sds ds sd  fdfdf</p>
       </div>      
       <img class="form-tasks__img2"  src="./img/2.svg" />
     </div>
@@ -21,7 +21,7 @@
     <div class="form-tasks__item">
       <div class="form-tasks__container">
         <img class="form-tasks__img3" src="./img/3.svg" />
-       <p class="form-tasks__item--text">Task 2</p>
+       <p class="form-tasks__item--text">Task 2 dffdf df df df d f</p>
        </div>       
        <img class="form-tasks__img2"  src="./img/2.svg" />
     </div>
@@ -29,7 +29,7 @@
     <div class="form-tasks__item">
       <div class="form-tasks__container">
       <img class="form-tasks__img3" src="./img/3.svg" />
-     <p class="form-tasks__item--text">Task 3</p>
+     <p class="form-tasks__item--text">Task 3 df df dfd f df </p>
      </div>     
      <img class="form-tasks__img2"  src="./img/2.svg" />
     </div>        
@@ -65,7 +65,7 @@ export default {};
 
 <style lang="scss">
 body {
-  background: linear-gradient(104.11deg, #ff7e5f 14.52%, #feb567 87.26%);  
+  background: linear-gradient(104.11deg, #ff7e5f 14.52%, #feb567 87.26%) no-repeat;  
 }
 
 .container {
