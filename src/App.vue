@@ -78,6 +78,8 @@ body {
 
 .form {  
   position: relative;  
+  width: 540px;
+  //width: 50vw;
   max-width: 540px;
   background-color: #FFF4E9;  
   z-index: 1;
@@ -95,7 +97,7 @@ body {
   height: 50px;
   background-color: #FFCA93;
   display: flex;
-  flex-direction: row;
+  //flex-direction: row;
   justify-content: center;
   align-items: center;  
   z-index: 1;
@@ -138,7 +140,7 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: 480px;
-  height: 50px;
+  //height: 50px;
   background-color: #FFDFBE;
   border-radius: 10px;
   margin-left: 30px;
@@ -150,19 +152,21 @@ body {
   color: #7F4B13;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 11px;
+  margin-bottom: 11px;
   
 }
 
 .form-footer {
  
  display: flex;
- flex-direction: row;
+ //flex-direction: row;
  justify-content: space-between;
  align-items: center;
- width: 540px;
- width: 50vw;
- max-width: 540px;
- height: 50px;
+ //width: 540px;
+ //width: 50vw;
+// max-width: 540px;
+ //height: 50px;
  background-color: #FFCA93;
  bottom: 50px;
  font-weight: 600;
@@ -177,7 +181,7 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 480px;
-  height: 50px;
+ // height: 50px;
   border-radius: 10px;
   margin-top: 25px;
   margin-bottom: 30px;
@@ -190,6 +194,10 @@ body {
   color: #FFCA93;
   font-size: 20px;
   font-weight: 400; 
+  margin-top: 11px;
+  margin-bottom: 11px;
+  margin-right: 20px;
+  margin-left: 20px;
    
 }
 
@@ -211,6 +219,8 @@ body {
 .form-footer__content {
   color: #7F4B136B;
   margin-left: 25px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 
