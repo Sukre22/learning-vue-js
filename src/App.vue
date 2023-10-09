@@ -94,8 +94,8 @@ body {
 }
 
 .img__back {
- width: 100%;
- height: 512px
+// width: 100%;
+ //height: 512px
 }
 
 .form-header { 
@@ -245,6 +245,18 @@ body {
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+  .img {  
+    display: none;
+ 
+}
+
+.form {  
+  left: 0px;
+  
+}
+}
+
   
 
 
