@@ -10,28 +10,28 @@
 </div>
 <div class="form-tasks">
   
-    <div class="form-tasks__item">
-      <div class="form-tasks__container">
-       <img class="form-tasks__img3" src="./img/3.svg" />
-      <p class="form-tasks__item--text">Task 1 dssdd sds ds sd  fdfdf</p>
+    <div class="tasks-item">
+      <div class="tasks-item__container">
+       <img class="tasks-item__img3" src="./img/3.svg" />
+      <p class="tasks-item__text">Task 1 dssdd sds ds sd  fdfdf</p>
       </div>      
-      <img class="form-tasks__img2"  src="./img/2.svg" />
+      <img class="tasks-item__img2"  src="./img/2.svg" />
     </div>
 
-    <div class="form-tasks__item">
-      <div class="form-tasks__container">
-        <img class="form-tasks__img3" src="./img/3.svg" />
-       <p class="form-tasks__item--text">Task 2 dffdf df df df d f</p>
+    <div class="tasks-item">
+      <div class="tasks-item__container">
+        <img class="tasks-item__img3" src="./img/3.svg" />
+       <p class="tasks-item__text">Task 2 dffdf df df df d f</p>
        </div>       
-       <img class="form-tasks__img2"  src="./img/2.svg" />
+       <img class="tasks-item__img2"  src="./img/2.svg" />
     </div>
 
-    <div class="form-tasks__item">
-      <div class="form-tasks__container">
-      <img class="form-tasks__img3" src="./img/3.svg" />
-     <p class="form-tasks__item--text">Task 3 df df dfd f df </p>
+    <div class="tasks-item">
+      <div class="tasks-item__container">
+      <img class="tasks-item__img3" src="./img/3.svg" />
+     <p class="tasks-item__text">Task 3 df df dfd f df </p>
      </div>     
-     <img class="form-tasks__img2"  src="./img/2.svg" />
+     <img class="tasks-item__img2"  src="./img/2.svg" />
     </div>        
     
      
@@ -121,27 +121,27 @@ body {
   margin-right: 30px;
 }
 
-.form-tasks__img3 {  
+.tasks-item__img3 {  
   margin-left: 20px;
   margin-right: 23px;
   height: 24px;
   width: 24px;
 }
 
-.form-tasks__img2 {
+.tasks-item__img2 {
   height: 24px;
   width: 24px;
   margin-right: 20px;
   margin-left: 23px;
 }
 
-.form-tasks__container {
+.tasks-item__container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.form-tasks__item {
+.tasks-item {
   display: flex;  
   justify-content: space-between;
   align-items: center;
@@ -154,7 +154,7 @@ body {
  
 }
 
-.form-tasks__item--text {
+.tasks-item__text {
   color: #7F4B13;
   font-size: 20px;
   font-weight: 400;
