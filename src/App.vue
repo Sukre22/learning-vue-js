@@ -79,7 +79,6 @@ body {
 .form {  
   position: relative;  
   width: 540px;
-  //width: 50vw;
   max-width: 540px;
   background-color: #FFF4E9;  
   z-index: 1;
@@ -89,13 +88,7 @@ body {
 }
 
 .img {  
- right: 425px;
- 
-}
-
-.img__back {
-// width: 100%;
- //height: 512px
+ right: 425px; 
 }
 
 .form-header { 
@@ -103,7 +96,6 @@ body {
   height: 50px;
   background-color: #FFCA93;
   display: flex;
-  //flex-direction: row;
   justify-content: center;
   align-items: center;  
   z-index: 1;
@@ -145,8 +137,7 @@ body {
   display: flex;  
   justify-content: space-between;
   align-items: center;
-  max-width: 480px;
-  //height: 50px;
+  max-width: 480px;  
   background-color: #FFDFBE;
   border-radius: 10px;
   margin-left: 30px;
@@ -163,21 +154,14 @@ body {
   
 }
 
-.form-footer {
- 
- display: flex;
- //flex-direction: row;
+.form-footer { 
+ display: flex; 
  justify-content: space-between;
  align-items: center;
- //width: 540px;
- //width: 50vw;
-// max-width: 540px;
- //height: 50px;
  background-color: #FFCA93;
  bottom: 50px;
  font-weight: 600;
- font-size: 20px;
- 
+ font-size: 20px; 
 }
 
 .form-add {
@@ -187,7 +171,6 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 480px;
- // height: 50px;
   border-radius: 10px;
   margin-top: 25px;
   margin-bottom: 30px;
