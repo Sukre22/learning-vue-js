@@ -103,6 +103,7 @@ body {
 
 .form-header__title {
   color: #7F4B13;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 600;
 } 
@@ -147,6 +148,7 @@ body {
 
 .tasks-item__text {
   color: #7F4B13;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400;
   margin-top: 11px;
@@ -181,6 +183,7 @@ body {
 
 .form-add__text {  
   color: #FFCA93;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400; 
   margin-top: 11px;
@@ -188,6 +191,12 @@ body {
   margin-right: 20px;
   margin-left: 20px;
    
+}
+
+.form-footer {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .form-footer__text {
@@ -198,9 +207,7 @@ body {
 }
 
 .form-footer__right {
- display: flex;
- 
- 
+ display: flex; 
  align-items: center;
  margin-right: 30px;
 }
