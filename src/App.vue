@@ -2,12 +2,10 @@
   <div class="container">
     <div class="form">
       
-<div class="form-header">
-  
-<p class="form-header__title">
-  to do list
-</p>
+<div class="form-header">  
+<p class="form-header__title">to do list</p> 
 </div>
+
 <div class="form-tasks">
   
     <div class="tasks-item">
