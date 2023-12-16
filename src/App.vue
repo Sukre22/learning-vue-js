@@ -11,7 +11,7 @@
     <div class="tasks-item">
       <div class="tasks-item__container">
        <img class="tasks-item__img3" src="./img/3.svg" />
-      <p class="tasks-item__text">Task 1 dssdd sds ds sd  fdfdf</p>
+      <p class="tasks-item__text">Task 1</p>
       </div>      
       <img class="tasks-item__img2"  src="./img/2.svg" />
     </div>
@@ -19,7 +19,7 @@
     <div class="tasks-item">
       <div class="tasks-item__container">
         <img class="tasks-item__img3" src="./img/3.svg" />
-       <p class="tasks-item__text">Task 2 dffdf df df df d f</p>
+       <p class="tasks-item__text">Task 2</p>
        </div>       
        <img class="tasks-item__img2"  src="./img/2.svg" />
     </div>
@@ -27,7 +27,7 @@
     <div class="tasks-item">
       <div class="tasks-item__container">
       <img class="tasks-item__img3" src="./img/3.svg" />
-     <p class="tasks-item__text">Task 3 df df dfd f df </p>
+     <p class="tasks-item__text">Task 3</p>
      </div>     
      <img class="tasks-item__img2"  src="./img/2.svg" />
     </div>        
